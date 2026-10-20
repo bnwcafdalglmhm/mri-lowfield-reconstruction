@@ -1,0 +1,4 @@
+model,psnr_db,ssim,key_changes
+Baseline,32.50,0.8838,U-Net + 0.2 MSE + 0.8 L1 + StepLR
+Exp V2,32.01,0.8884,SSIM loss + k-space L1 + CosineAnnealingWarmRestarts + residual
+Exp V3,32.75,0.8936,SSIM loss + residual learning + StepLR
